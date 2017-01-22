@@ -20,7 +20,7 @@ extension ArgumentValue {
 
 extension String: ArgumentValue {
   public var asGraphQLArgument: String {
-    return self.withQuotes
+    return self
   }
 }
 
