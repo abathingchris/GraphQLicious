@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
                         GraphQLicious is a leightweight framework for conveniently creating queries that can be read and interpreted by GraphQL. 
                        DESC
 
-  s.homepage         = "https://github.com/WeltN24/GraphQLicious"
+  s.homepage         = "https://github.com/abathingchris/GraphQLicious"
   s.license          = 'MIT'
   s.author           = { "Felix Dietz" => "felix.dietz@weltn24.de" }
-  s.source           = { :git => "https://github.com/WeltN24/GraphQLicious.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/abathingchris/GraphQLicious.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
